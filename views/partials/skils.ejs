@@ -1,0 +1,9 @@
+                                           <% var bootstrapCorousel=data.sectionKnowledges.skillsImg;%>
+                                           <%for(var x=0; x<=bootstrapCorousel.length-1 ;x++){%>
+                                        <div class="item <%= x!=0?"":"active";%>">
+                                            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                                <a href="#">
+                                                    <img alt="<%= bootstrapCorousel[x].alt ;%>" src="<%= bootstrapCorousel[x].url;%>" class="img-responsive">
+                                                </a></div>
+                                        </div>
+                                           <% };%>

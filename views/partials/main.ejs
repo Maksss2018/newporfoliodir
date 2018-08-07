@@ -1,0 +1,246 @@
+<div class="row row-orange btn-big" id="about-me">
+    <div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 about-me-btn flex-container-btn">
+        <span class="flex-item-btn h4 text-center">about me : </span><span  class="flex-item-btn h3 text-center" >&nbsp Malyi M.G.</span>
+    </div>
+</div>
+<section id="about-me-this" class="row row-container-parent grey">
+    <div class="container">
+        <div class="row" id="about_me">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-md-offset-1 col-lg-offset-1 col-xl-offset-1">
+                    <ul class="list-group section-title section-title-not-header">
+                        <li class="list-group-item">littel about </li>
+                        <li class="list-group-item">Me</li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"><p><%= data.sectionAboutMe[0] %></p></li>
+                    </ul>
+                    <ul class="list-group section-title section-title-not-header">
+                        <li class="list-group-item">
+                            <blockquote>
+                                <h3><span class="green-text">Lorem ipsum</span> dolor sit amet, consectetur adipisicing elit.</h3>
+                                <footer>Jora</footer>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                    <ul class="list-group section-title section-title-not-header text-right">
+                        <li class="list-group-item col-md-6 col-lg-6 col-xl-6 col-md-offset-4 col-lg-offset-4 col-xl-offset-4"><h3>When developer is not just a professhion</h3> </li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item"></li>
+                        <li class="list-group-item col-md-4 col-lg-4 col-xl-4 col-md-offset-6 col-lg-offset-6 col-xl-offset-6">
+                            <p><%= data.sectionAboutMe[1] %></p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<div class="row row-green btn-big" id="about-my-kn">
+    <div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 about-me-btn flex-container-btn">
+        <span class="flex-item-btn h4 text-center">Skills and knowledges : </span><span  class="flex-item-btn h3 text-center" >&nbsp Developer</span>
+    </div>
+</div>
+<section id="about-my-kn-this">
+    <div class="row row-container-parent green">
+        <div class="container">
+            <div class="row" id="exp_skills">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+<div class="row-nopadding">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-md-offset-1 col-lg-offset-1 col-xl-offset-1">
+        <ul class="list-group section-title section-title-not-header">
+            <li class="list-group-item black-text">littel about </li>
+            <li class="list-group-item">My skills </li>
+            <li class="list-group-item"></li>
+            <li class="list-group-item  "><p><%= data.sectionKnowledges.description;%></p></li>
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+    </div>
+</div>
+
+
+                    <section class="line-section" data-first-tree="true" style="margin-left: 1rem">
+                                <% var skillsArray=data.sectionKnowledges.skills;%>
+                                <% var skillsColor=["#e17171","#FF4040","#006363","#39E639","#A60000","#E6399B","#992667","#679B00"];%>
+                                <% var randomColor=function(max , min){
+                                   return Math.random() * (max - min) + min;
+                                };%>
+                   <%  for(var i=0; i <=skillsArray.length-1; i++ ){; %>
+                    <%  rendRez = skillsColor[Math.floor(randomColor(skillsColor.length,0))]; %>
+                    <div style="color:<%= rendRez;%>;" data-even="true" class="skills-line col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+                             <% if (i%2==0){%> 
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 col-xl-5 ">
+
+                            </div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2   flex-container">
+                                <div class="squer-container flex-container flex-item">
+                                    <div class="squer" style="background-color:<%= rendRez;%>;"></div>
+                                </div>
+                            </div>
+                          
+                             <% };%>
+                            
+                            <div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 <%=  i%2!=0? "col-md-offset-2 col-lg-offset-2 col-xl-offset-2":""; %> <%= thisClass = i%2!=0? "text-right" : "text-left" ; %> ">
+                                <div class="<%=  i%2!=0? " rotateInDownRight ":" rotateInDownLeft "; %> animated " style="display: none;">
+
+                                    <h3 class="skills-line"><%= skillsArray[i].title%></h3>
+                                    <p><%= skillsArray[i].theExcerpt%></p>
+                                </div>
+
+                            </div>
+
+                         <% if (i%2!=0){%> 
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2   flex-container">
+                                <div class="squer-container flex-container flex-item">
+                                    <div class="squer" style="background-color:<%= rendRez;%>;"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-3 col-lg-3 col-xl-3">
+                            </div>
+                             <% };%>
+                        </div>
+                   
+                   <% };%>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row row-container-parent dark-green">
+        <div class="container">
+            <div class="row" id="exp_skills">
+                <section class="line-section" style="margin-left: 1.1rem">
+
+                    <div style="color: #e17171;" data-even="true" class="skills-line col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+
+                        <div class=" col-xs-5 col-sm-5 col-md-3 col-lg-3 col-xl-3 col-md-offset-2 col-lg-offset-2 col-xl-offset-2">
+
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xl-2 flex-container">
+                            <div class="squer-container white-stripe short-white-stripe flex-container-end flex-item" >
+                                <div class="squer-big first" style="background-color:#00c156;"><h4>my <b> Skills</b></h4></div>
+                            </div>
+                        </div>
+                        <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12  ">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8   col-md-offset-2 col-lg-offset-2 col-Xl-offset-2 ">
+                                <div class="carousel slide" id="several-items">
+                                    <div class="carousel-inner">
+                                    <% include ../partials/skils.ejs %>
+                                    </div>
+                                    <a class="left carousel-control" href="#several-items" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                                    <a class="right carousel-control" href="#several-items" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <div class="row row-grey btn-big" id="my-contacts">
+
+        <div  class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 about-me-btn flex-container-btn">
+            <span class="flex-item-btn h4 text-center">Contact me : </span><span  class="flex-item-btn h3 text-center" >&nbsp Contacts</span>
+        </div>
+    </div>
+<section id="my-contacts-this" class="btn-big row row-container-parent grey">
+    <div class="container">
+        <div class="row" id="contacts">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-md-offset-1 col-lg-offset-1 col-xl-offset-1">
+                    <ul class="list-group section-title section-title-not-header">
+                        <li class="list-group-item azure-text">want to contact?</li>
+                        <li class="list-group-item azure-text">Me</li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-md-offset-3 col-lg-offset-3 col-xl-offset-3">
+                    <ul class="list-group section-title section-title-not-header padding-for-top">
+                        <li class="list-group-item azure-text text-right">
+                            <p><%= data.sectionContacts.shortDescription %></p>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="hidden-md hidden-lg plus-margin col-xs-10 col-sm-10 col-xs-offset-1 col-sm-offset-1 text-left">
+                <h5><a href="phone:<%= data.sectionContacts.tel %>"><%= data.sectionContacts.tel %></a>  <i class="fa fa-phone"></i></h5>
+                <h5><a href="mailto:<%= data.sectionContacts.email %>"><%= data.sectionContacts.email %></a> <i class="fa fa-envelope"></i></h5>
+                <h5><a href="<%= data.sectionContacts.googlemapsLink %>"><%= data.sectionContacts.googlemapsAddres %></a> <i class="fa fa-map-marker"></i></h5>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <form class="form-horizontal" id="msg-action">
+
+                    <fieldset ><!--disabled="disabled"-->
+
+                        <div class="plus-margin plus-margin-top-2 col-xs-9 col-sm-3 col-md-3 col-lg-3  col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+
+                            <div class="form-group">
+                                <div class="">
+                                    <input required type="text" class="form-control" name="name" id="inputName" placeholder="Name">
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <div class="">
+
+                                    <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Email">
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="hidden-sm hidden-xs plus-margin-15 col-xs-5 col-sm-5 col-md-5 col-lg-5   text-right">
+                          <h5><a href="phone:<%= data.sectionContacts.tel %>"><%= data.sectionContacts.tel %></a>  <i class="fa fa-phone"></i></h5>
+                          <h5><a href="mailto:<%= data.sectionContacts.email %>"><%= data.sectionContacts.email %></a> <i class="fa fa-envelope"></i></h5>
+                          <h5><a href="<%= data.sectionContacts.googlemapsLink %>"><%= data.sectionContacts.googlemapsAddres %></a> <i class="fa fa-map-marker"></i></h5>
+                             </div>
+                        <div class="form-group">
+                            
+                            <div  class="margin-left-12-rem col-xs-9 col-sm-9 col-md-9 col-lg-9 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+                                <textarea class="form-control" rows="5" name="message" class="form-control" id="inputMessage" placeholder="Message"></textarea>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <div class="plus-margin col-xs-9 col-sm-9 col-md-9 col-lg-9 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 text-right">
+                                 <div class="g-recaptcha" data-sitekey="6Lfr9U0UAAAAADf1s8-oIFjRowtmh0o0d03VgbEq"></div>
+                                <button id="ajaxBtn" type="button" class="btn btn-primary send-message">Send</button>
+
+                            </div>
+
+
+                            <div class="plus-margin col-xs-9 col-sm-9 col-md-9 col-lg-9 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 text-right">
+<!--
+                          <div class="g-recaptcha" data-sitekey="6Lfr9U0UAAAAADf1s8-oIFjRowtmh0o0d03VgbEq"></div>
+-->
+
+                            </div>
+
+                        </div>
+
+                    </fieldset>
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+    </div><!-- /.container -->
+</section>

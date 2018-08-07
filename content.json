@@ -1,0 +1,179 @@
+{
+    "headerImg": "img/users/pvsOhiiGv_Y.jpg",
+  "sectionAboutMe": [
+    "Originally I'm from the city of Odessa Ukraine. Here I was born and raised.  I started  working in IT in 2016.My main principles: the responsible attitude to work, to my colleagues and to myself - I expect from those with whom I work the same. I always strive to make the code optimal and the final fruit of my labors is interesting and convenient to the consumer. For me, there are no impossible tasks if there is enough time to fulfill them.",
+    "For me, web development is not just work, a hobby that makes my life interesting, but also a way to develop myself in a constant striving to acquire new knowledge and skills related to programming. The ultimate goal of all this is to help colleagues and clients achieve the optimal result. And of course help people in general."
+  ],
+  "sectionKnowledges": {
+      "status":"true",
+    "description": " I never stop learning, every month  a learn somsing new  in developing. When I leave IT school 'STEP' I get skils in HTML, CSS,PHP on low level. Today I learn by myself several frameworks and libs for JS, HTML5, CSS3, PHP.",
+    "skills": [
+      {
+        "title": "A valid, optimal code",
+        "content": "When I'm writing  code, I set the goal to write the optimal code for compilation and compiler processing. At the same time, create a code that is accessible to understanding. In doing so, I use the knowledge skills that I got in the field of programming while studying at the IT school 'Step'. At the core of writing code, I try to maximize the paradigm of object-oriented programming. Especially I am fascinated with how this paradigm found itself in JavaScript. The four basic principles of OOP (prototyping, encapsulation, inheritance, polymorphism) are not just words for me but the main guidelines when I`m writing  optimally code. And although today it is not necessary to have detailed knowledge to  connect the plug-in and not to bother with the structuring of the code and data. I still try to thoroughly study the problem and will develop the most convenient and easy to compile and develop code. To use the TypeScript as one of the results of studying OOP for me is also not a problem.     It's nice to see how such technologies as Angular, React, Vei and others js frameworks and libs, it help to use Javascript as the most powerful language not only in Web development but also in IoT, robotics, cryptology.    This allowed me to expand my capabilities as a front-end developer to a full-stack developer. Constant improvement in this direction gives me great pleasure and it is realy fan for me.    Now the usual front-end developer can turn in an engineer and, at the same time, not only create logic for data processing on the server but also to create programs with an easy-to-use algorithm for interacting with the hardware of the computer. What is for me a tool for creating a service more complex than just a chat or blog.    To date, I can create and debug logic not only for ordinary portfolio sites but also for  shops, complicated corporative sites, browser games, some Iot that work with NODE.js.",
+        "theExcerpt": "When I'm writing  code, I set the goal to write the optimal code for compilation and compiler processing. At the same time, create a code that is accessible to understanding..."
+      },
+      {
+        "title": " Responsive and Adaptive HTML",
+        "content": "Today, simply uploading content to the server is considered barbaric. It's not enough just to create content accessible to the user's understanding, you also need to draw the user's attention to information - to make it fascinating to receive and exchange information on the network. Building a service requires me to work on understanding the needs of the client and use HTML/CSS not just to create a beautiful picture, but also interest in work  of  such search engines as Google, Yahoo ... I have to understand  the specifics of search robots, bots work. Write the valid accessible to the client side of HTML at the same time keep the line between the technical correct code and conceive the designer's work. Finding convenient solutions for  writing code for a specific design. With the above-mentioned  as a tool, I use Bootstrap 3/4 libraries, Animate.css, fonts awesome. And it's not a problem for me to learn new libraries, frameworks or plugins that would help accomplish the task set by the designer and client.",
+        "theExcerpt": "Today, simply uploading content to the server is considered barbaric. It's not enough just to create content accessible to the user's understanding, you also need to draw the..."
+      },
+      {
+        "title": "Take into account the features of browsers",
+        "content": "Over the past year and a half of studying programming and development in the web, a lot has changed and there are no such conflicts when compiling hypertext documents in different browsers as before. It is no longer necessary to use JavaScript or any server language to determine the client's browser and write or compile special CSS or HTML. It Still requires knowledge to use the already ready for this tools and specifications of the above-mentioned Web development tools. Often a simple task, like writing a website - a blog, requires us to work with an Internet Explorer that is not very convenient for developing a Safari browser or the brainchild of a Microsoft Internet client. All the same, the popularity of apple products has played a huge role in the web-distribution.For me, these are understandable things that I take into account when creating the code.",
+        "theExcerpt": "Over the past year and a half of studying programming and development in the web, a lot has changed and there are no such conflicts when compiling hypertext documents in different browsers..."
+      }
+    ],
+    "skillsInitForchars": [
+      {
+        "title": "XXX"
+      }
+    ],
+    "skillsDescritionForLinks": [
+      {
+        "title": "XXX"
+      }
+    ],
+    "skillsImg": [
+     {
+        "url": "img/skills_icons/_node_.png",
+        "alt": "html css",
+        "class": "",
+        "status": "true"
+      },
+     {
+        "url": "img/skills_icons/hcss3jsboot_.png",
+        "alt": "html css JavaScripte",
+        "class": "",
+        "status": "true"
+      },
+      {
+        "url": "img/skills_icons/html_5-512.png",
+        "alt": "html5",
+        "class": "",
+        "status": "true"
+      },
+      {
+        "url": "img/skills_icons/aws_.png",
+        "alt": "AWS",
+        "class": "",
+        "status": "true"
+      },
+       {
+        "url": "img/skills_icons/linux_.png",
+        "alt": "linux",
+        "class": "",
+        "status": "true"
+      },
+       {
+        "url": "img/skills_icons/php_icon.png",
+        "alt": "PHP",
+        "class": "",
+        "status": "true"
+      },
+       {
+        "url": "img/skills_icons/angularjs_.png",
+        "alt": "Angular2 anlgular.js",
+        "class": "",
+        "status": "true"
+      },
+       {
+        "url": "img/skills_icons/wordpress_.png",
+        "alt": "wordpress",
+        "class": "",
+        "status": "true"
+      }
+    ]
+  },
+  "sectionPorfolio": {
+      "status":"false",
+    "description": "Some Of my works  you will  find here.",
+    "thubnails": [
+      {
+        "url": "",
+        "alt": "",
+        "class": "",
+        "status": "true"
+      },
+      {
+        "url": "",
+        "alt": "",
+        "class": "",
+        "status": "true"
+      }
+    ],
+    "owlItems": [
+      {
+        "url": "",
+        "alt": "",
+        "class": "",
+        "status": "true"
+      },
+      {
+        "url": "",
+        "alt": "",
+        "class": "",
+        "status": "true"
+      }
+    ],
+    "owlConfigs": {
+      "ddd": "ddd"
+    },
+    "experience": [
+      {
+        "title": "",
+        "content": "",
+        "theExcerpt": ""
+      },
+      {
+        "title": "",
+        "content": "",
+        "theExcerpt": ""
+      },
+      {
+        "title": "",
+        "content": "",
+        "theExcerpt": ""
+      },
+      {
+        "title": "",
+        "content": "",
+        "theExcerpt": ""
+      }
+    ],
+    "bootstrapCarousel": [
+      {
+        "url": "",
+        "alt": "",
+        "message": "",
+        "status": "true"
+      },
+      {
+        "url": "",
+        "alt": "",
+        "message": "",
+        "status": "true"
+      },
+      {
+        "url": "",
+        "alt": "",
+        "message": "",
+        "status": "true"
+      },
+      {
+        "url": "",
+        "alt": "",
+        "message": "",
+        "status": "true"
+      }
+    ]
+  },
+  "sectionContacts": {
+    "status":"true",
+    "tel": "+38 (095) 57 04 721",
+    "email": "malyimaksym37@gmail.com",
+    "googlemapsAddres": "Ukrain, Odessa city",
+    "googlemapsLink": "https://www.google.com.ua/maps/place/%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%B0,+%D0%9E%D0%B4%D0%B5%D1%81%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+65000/@46.460103,30.4315939,10z/data=!3m1!4b1!4m5!3m4!1s0x40c6318a0b864c43:0x129f8fe28cf2176c!8m2!3d46.482526!4d30.7233095?hl=ru",
+    "shortDescription": "Pleas contact me if  you intersted in my services."
+  }
+}
